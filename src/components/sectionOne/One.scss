@@ -1,0 +1,47 @@
+// Organism
+.section-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+// Molecules
+.main-image-area,
+.main-header-area,
+.para-description-area,
+.button-one-area {
+  width: 85vw;
+  height: 63vw;
+  margin-top: 5vw;
+  border: solid black 0.5px;
+  // background-color: black;
+}
+.main-image-area {
+  border: solid black 0.5px;
+}
+.main-header-area,
+.para-description-area,
+.button-one-area {
+  width: 85vw;
+  //height: 40vw;
+  height: auto;
+  margin-top: 10vw;
+}
+.button-one-area {
+  margin-right: 33.5vw;
+  height: 15vw;
+  width: 51.5vw;
+  background-color: blue;
+  margin-top: 7.5vw;
+  margin-bottom: 10vw;
+}
+// Atoms
+.main-header-text {
+  font-size: 4rem;
+  line-height: 5rem;
+  //border: solid black 0.5px;
+}
+.para-des-text {
+  font-size: 2rem;
+  line-height: 3rem;
+}

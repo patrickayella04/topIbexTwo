@@ -1,0 +1,64 @@
+/// Overall Layout structure
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%; /* 1 rem is now 1 10 pixles*/
+  box-sizing: border-box;
+}
+
+@media (max-width: 530px) {
+  .App {
+    display: grid;
+    grid-template-rows: 65px 185vw auto auto auto auto 180vw;
+
+    grid-template-areas:
+      "nav"
+      "section-one"
+      "section-two"
+      "section-three"
+      "section-four"
+      "section-five"
+      "section-six";
+  }
+
+  .nav-area {
+    grid-area: nav;
+    background-color: #000000;
+  }
+  .section-one {
+    grid-area: section-one;
+    background-color: #ffffff;
+  }
+  .section-two {
+    grid-area: section-two;
+    background-color: rgba(243, 231, 231, 1);
+    margin-bottom: 10vw;
+  }
+  .section-three {
+    grid-area: section-three;
+    background-color: rgba(216, 211, 228, 1);
+    margin-bottom: 10vw;
+  }
+  .section-four {
+    grid-area: section-four;
+    background-color: rgba(219, 239, 233, 1);
+  }
+  .section-five {
+    grid-area: section-five;
+    background-color: #ffffff;
+  }
+  .section-six {
+    grid-area: section-six;
+    background-color: #000000;
+  }
+}
+/// Imports from components
+@import "src/components/navigation/navigation.scss";
+@import "src/components/sectionOne/One.scss";
+@import "src/components/sectionTwo/Two.scss";
+@import "src/components/sectionThree/Three.scss";
+@import "src/components/sectionFour/Four.scss";
+@import "src/components/sectionFive/Five.scss";
+@import "src/components/sectionSix/Six.scss";

@@ -1,0 +1,73 @@
+// Organism
+.section-four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+// Molecules
+.four-main-header-area,
+.four-des-header-area,
+.four-second-header-area,
+.four-second-des-header-area,
+.four-circle-image-area {
+  width: 85vw;
+  height: fit-content;
+  margin-top: 22vw;
+  border: 1px solid black;
+}
+.four-des-header-area,
+.four-second-des-header-area {
+  height: 10vw;
+  margin-top: 2vw;
+}
+.four-second-des-header-area {
+  height: 25vw;
+}
+.four-second-header-area {
+  height: 10vw;
+  margin-top: 15vw;
+}
+.four-circle-image-area {
+  display: flex;
+
+  margin-top: 10vw;
+  height: 15vw;
+  border: none;
+}
+.four-card-image,
+.four-inner-card-area {
+  width: 85vw;
+  height: 45vw;
+  margin-top: 15vw;
+  border: solid black 0.5px;
+  //background-color: black;
+}
+.four-inner-card-area {
+  height: 106vw;
+  border: none;
+  margin-bottom: 15vw;
+  background-color: rgba(192, 215, 208, 1);
+}
+.f-one-box-link {
+  width: 100%;
+  height: 15vw;
+  background-color: rgba(67, 165, 135, 0.49);
+}
+
+// Atoms
+.four-header-text {
+  font-size: 4rem;
+}
+.four-circle-img {
+  height: 15vw;
+  width: 15vw;
+  border: solid 1px black;
+  border-radius: 45px;
+}
+.four-circle-text {
+  font-size: 1.4rem;
+  margin-top: 3vw;
+  margin-left: 3vw;
+  line-height: 20px;
+}
