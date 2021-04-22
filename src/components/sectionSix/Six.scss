@@ -7,10 +7,13 @@
 // Molecuels
 .s-main-header-area,
 .s-des-area {
-  border: solid 0.5px white;
+  //border: solid 0.5px white;
   width: 85vw;
   height: 20vw;
   margin-top: 10vw;
+}
+.s-main-header-area {
+  margin-top: 20vw;
 }
 .s-des-area {
   height: 50vw;
@@ -24,12 +27,23 @@
   margin-top: 7.5vw;
 }
 .s-footer-area {
-  border: solid 0.5px white;
-  margin-top: 60vw;
-  height: fit-content;
-  width: 50vw;
+  //border: solid 0.5px white;
+  margin-top: 55vw;
+  margin-bottom: 5vw;
+  place-items: center;
 }
 // Atoms
-.s-footer-text {
+.s-footer-text,
+.s-header-text,
+.s-des-area {
   color: white;
+}
+.s-footer-text {
+  //border: solid white 0.5px;
+}
+.s-header-text {
+  font-size: 3rem;
+}
+.s-des-area {
+  font-size: 2rem;
 }

@@ -11,7 +11,7 @@
 
   height: fit-content;
   width: 20vw;
-  border: 1px solid black;
+  //border: 1px solid black;
   margin-top: 20vw;
 }
 .f-main-header-area,
@@ -22,7 +22,7 @@
   width: 85vw;
   height: fit-content;
   margin-top: 10vw;
-  border: solid black 0.5px;
+  //border: solid black 0.5px;
   font-size: 2rem;
 }
 .one-card-area {
@@ -37,5 +37,33 @@
   //border: solid black 0.5px;
   height: 70vw;
   background-color: rgba(160, 115, 174, 0.35);
+}
+// inner boxes imgs and text
+.pic-box-one,
+.header-box,
+.header-box-text,
+.pic-box-two,
+.pic-box-three {
+  margin: 7vw 6vw;
+}
+.pic-box-one,
+.pic-box-two,
+.pic-box-three {
+  //img url
+  height: 15vw;
+  width: 15vw;
+  border: solid 0.5px black;
+}
+.header-box-text {
+  font-size: 1.5rem;
+}
+.header-box {
+  margin-top: 10vw;
+}
+.pic-box-two {
+  //img url
+}
+.pic-box-three {
+  //img url
 }
 // Atoms

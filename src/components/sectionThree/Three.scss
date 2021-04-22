@@ -14,10 +14,10 @@
   width: 85vw;
   height: fit-content;
   margin-top: 22vw;
-  border: 1px solid black;
+  //border: 1px solid black;
 }
 .three-main-header-area {
-  //border: none;
+  border: none;
 }
 .three-des-header-area,
 .three-second-des-header-area {
@@ -43,14 +43,19 @@
   width: 85vw;
   height: 45vw;
   margin-top: 15vw;
-  border: solid black 0.5px;
+  //border: solid black 0.5px;
   // background-color: black;
+}
+.three-card-image {
+  height: 55vw;
+  background-image: url(../imgs/photoPurple.jpg);
+  background-size: cover;
 }
 .three-inner-card-area {
   height: 106vw;
   margin-bottom: 15vw;
   border: none;
-  background-color: rgba(201, 196, 215, 1);
+  background-color: #c9c4ee;
 }
 
 .t-one-box-link {
@@ -62,7 +67,15 @@
   font-size: 2rem;
   line-height: 3rem;
   height: fit-content;
-  //border: none;
+  border: none;
+}
+// inner card area melecules
+.th-one-inner,
+.th-two-inner,
+.th-three-inner {
+  margin: 5vw 7vw;
+  height: 29vw;
+  //border: 1px solid black;
 }
 
 // Atoms
@@ -72,12 +85,22 @@
 .three-circle-img {
   height: 15vw;
   width: 15vw;
-  border: solid 1px black;
+  //border: solid 1px black;
   border-radius: 45px;
+  background-image: url(../imgs/manArtist.jpg);
+  background-position: center;
+  background-size: 204%;
+  background-position-y: -10px;
 }
 .three-circle-text {
   font-size: 1.4rem;
   margin-top: 3vw;
   margin-left: 3vw;
   line-height: 20px;
+}
+.th-header-one-inner {
+  //border: black 0.5px solid;
+}
+.th-text-one-inner {
+  font-size: 1.5rem;
 }

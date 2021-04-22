@@ -1,47 +1,231 @@
-// Organism
-.section-one {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+@media (max-width: 530px) {
+  // Organism
+  .section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-// Molecules
-.main-image-area,
-.main-header-area,
-.para-description-area,
-.button-one-area {
-  width: 85vw;
-  height: 63vw;
-  margin-top: 5vw;
-  border: solid black 0.5px;
-  // background-color: black;
+  // Molecules
+  .main-image-area,
+  .main-header-area,
+  .para-description-area,
+  .button-one-area {
+    width: 85vw;
+    height: 63vw;
+    margin-top: 5vw;
+    //border: solid black 0.5px;
+    // background-color: black;
+  }
+  .main-image-area {
+    //border: solid black 0.5px;
+    background-image: url(../imgs/deskTopWhite.jpg);
+    background-size: cover;
+  }
+  .main-header-area,
+  .para-description-area,
+  .button-one-area {
+    width: 85vw;
+    //height: 40vw;
+    height: auto;
+    margin-top: 10vw;
+  }
+  .button-one-area {
+    margin-right: 33.5vw;
+    height: 15vw;
+    width: 51.5vw;
+    background-color: blue;
+    margin-top: 7.5vw;
+    margin-bottom: 10vw;
+  }
+  // Atoms
+  .main-header-text {
+    font-size: 4rem;
+    line-height: 5rem;
+    //border: solid black 0.5px;
+  }
+  .para-des-text {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .logo-area-top {
+    display: none;
+  }
+  .box1,
+  .box2 {
+    display: none;
+  }
 }
-.main-image-area {
-  border: solid black 0.5px;
-}
-.main-header-area,
-.para-description-area,
-.button-one-area {
-  width: 85vw;
-  //height: 40vw;
-  height: auto;
-  margin-top: 10vw;
-}
-.button-one-area {
-  margin-right: 33.5vw;
-  height: 15vw;
-  width: 51.5vw;
-  background-color: blue;
-  margin-top: 7.5vw;
-  margin-bottom: 10vw;
-}
-// Atoms
-.main-header-text {
-  font-size: 4rem;
-  line-height: 5rem;
-  //border: solid black 0.5px;
-}
-.para-des-text {
-  font-size: 2rem;
-  line-height: 3rem;
+//////////////////////////////////
+
+// // Desktop
+// @media (max-width: 9992px) {
+//   // Organism
+//   .section-one {
+//     //margin: 5vw;
+//     //margin-bottom: 30vw;
+
+//     // display: flex;
+//     // flex-direction: column;
+//     // align-items: center;
+
+//     display: grid;
+//     grid-template-rows: auto 10vw 21vw auto;
+//     grid-template-columns: auto auto;
+
+//     grid-template-areas:
+//       "logo button2"
+//       "title pic"
+//       "des pic"
+//       "button pic";
+//   }
+//   // areas template
+//   .logo-area-top {
+//     grid-area: logo;
+//     color: black;
+//     margin-bottom: 5vw;
+//   }
+//   .main-header-area {
+//     grid-area: title;
+//   }
+//   .para-description-area {
+//     grid-area: des;
+//   }
+//   .button-one-area {
+//     grid-area: button;
+//   }
+//   .button-two-one-area {
+//     grid-area: button2;
+
+//     margin-left: 58.7vw;
+//   }
+//   .main-image-area {
+//     grid-area: pic;
+//     margin-left: 15vw;
+//     width: 58.6vw;
+//     height: 35vw;
+//   }
+//   ///////////////////////
+//   .logo-area-top,
+//   .button-two-one-area {
+//     margin-bottom: 10vw;
+//   }
+
+//   // Molecules
+//   .main-image-area,
+//   .main-header-area,
+//   .para-description-area,
+//   .button-one-area {
+//     //width: 45vw;
+//     //height: 35vw;
+//     //margin-top: 5vw;
+//     //border: solid black 0.5px;
+//     // background-color: black;
+//   }
+//   .main-image-area {
+//     border: solid black 0.5px;
+//     background-image: url(../imgs/deskTopWhite.jpg);
+//     background-size: cover;
+//   }
+//   .main-header-area,
+//   .para-description-area,
+//   .button-one-area {
+//     width: 45vw;
+//     //height: 40vw;
+//     height: auto;
+//     //margin-top: 10vw;
+//   }
+//   .main-header-area,
+//   .para-description-area {
+//     width: 25vw;
+//   }
+
+//   .button-one-area,
+//   .button-two-one-area {
+//     //margin-right: 33.5vw;
+//     height: 50px;
+//     width: 180px;
+//     background-color: blue;
+//     //margin-top: 7.5vw;
+//     //margin-bottom: 10vw;
+//   }
+//   // Atoms
+//   .main-header-text {
+//     font-size: 4rem;
+//     line-height: 5rem;
+//     //border: solid black 0.5px;
+//   }
+//   .para-des-text {
+//     font-size: 2rem;
+//     line-height: 3rem;
+//   }
+// }
+
+@media (min-width: 992px) {
+  // Organism
+  .mobile-section-one {
+    display: none;
+  }
+  .desktop-area {
+    display: flex;
+    flex-direction: row;
+  }
+  ///////////////////////
+
+  .box1,
+  .box2 {
+    width: 50%;
+  }
+
+  .main-image-area {
+    //margin-left: 15vw;
+    width: 100%;
+    height: 35vw;
+  }
+
+  .button-two-one-area {
+    //margin-bottom: 10vw;
+    float: right;
+  }
+
+  // Molecules
+
+  .main-image-area {
+    //border: solid black 0.5px;
+    background-image: url(../imgs/deskTopWhite.jpg);
+    background-size: cover;
+    margin-top: 5vw;
+  }
+  .main-header-area,
+  .para-description-area,
+  .button-one-area {
+    width: 45vw;
+    //height: 40vw;
+    height: auto;
+    //margin-top: 10vw;
+  }
+  .main-header-area,
+  .para-description-area {
+    width: 25vw;
+  }
+
+  .button-one-area,
+  .button-two-one-area {
+    //margin-right: 33.5vw;
+    height: 50px;
+    width: 180px;
+    background-color: blue;
+    //margin-top: 7.5vw;
+    //margin-bottom: 10vw;
+  }
+  // Atoms
+  .main-header-text {
+    font-size: 4rem;
+    line-height: 5rem;
+    //border: solid black 0.5px;
+  }
+  .para-des-text {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
 }
