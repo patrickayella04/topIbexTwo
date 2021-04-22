@@ -1,4 +1,5 @@
 import React from "react";
+import LogoSpace from "../atoms/LogoSpace";
 
 import ButtonOneArea from "../molecuels/ButtonOneArea";
 import ButtonTwo from "../molecuels/ButtonTwo";
@@ -16,6 +17,7 @@ function SectionOne() {
         {/* <LogoArea /> */}
         <div className="desktop-area">
           <div className="box1">
+            <LogoSpace />
             <MainHeaderArea />
             <ParaDescription />
             <ButtonOneArea />
