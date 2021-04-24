@@ -14,7 +14,6 @@ function SectionOne() {
   return (
     <>
       <div className="section-one desk-section-one">
-        {/* <LogoArea /> */}
         <div className="desktop-area">
           <div className="box1">
             <LogoSpace />
@@ -27,7 +26,6 @@ function SectionOne() {
             <ImgArea />
           </div>
         </div>
-
         <div className="mobile-section-one">
           <ImgArea />
           <MainHeaderArea />

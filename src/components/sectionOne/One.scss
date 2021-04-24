@@ -1,3 +1,4 @@
+//Mobile
 @media (max-width: 530px) {
   // Organism
   .section-one {
@@ -23,7 +24,6 @@
   .para-description-area,
   .button-one-area {
     width: 85vw;
-    //height: 40vw;
     height: auto;
     margin-top: 10vw;
   }
@@ -39,7 +39,6 @@
   .main-header-text {
     font-size: 4rem;
     line-height: 5rem;
-    //border: solid black 0.5px;
   }
   .para-des-text {
     font-size: 2rem;
@@ -53,54 +52,52 @@
     display: none;
   }
 }
-//////////////////////////////////
 
-// Larg Desktop
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-@media (min-width: 1948px - 1100px) {
+// Desktop
+
+//1948px
+@media (min-width: 531px) {
   // Organism
+
+  .desktop-area {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box1 {
+    width: 36%;
+    // margin-left: auto;
+    // margin-bottom: 5vw;
+    margin: 5vw 0 5vw auto;
+  }
+  .box2 {
+    width: 40%;
+    margin-right: auto;
+    margin: 5vw auto 5vw 0;
+  }
   .mobile-section-one {
     display: none;
   }
-  .desktop-area {
-    display: flex;
-    flex-direction: row;
-    margin: 3vw 17vw;
-    //margin: 100px 300px;
-  }
-  ///////////////////////
 
-  .box1 {
-    width: 40%;
-    margin-right: 3vw;
-  }
-  .box2 {
-    width: 60%;
-    margin-left: 3vw;
-  }
   .main-image-area {
-    //margin-left: 15vw;
     width: 100%;
-    height: 24vw;
+    height: 27vw;
   }
   .button-two-one-area {
-    //margin-bottom: 10vw;
-
     float: right;
   }
   .main-image-area {
-    //border: solid black 0.5px;
     background-image: url(../imgs/deskTopWhite.jpg);
+    background-position-y: -50px;
     background-size: cover;
-    margin-top: 5vw;
+    margin-top: 7vw;
   }
   .main-header-area,
   .para-description-area,
   .button-one-area {
     width: 45vw;
-    //height: 40vw;
     height: auto;
-    //margin-top: 10vw;
   }
   .main-header-area,
   .para-description-area {
@@ -133,18 +130,106 @@
     margin-bottom: 5vw;
     font-size: 2rem;
   }
+  .main-header-area {
+    margin-top: 7vw;
+  }
 }
 
-/////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Large Desktop
+
+// @media (min-width: 1948px - 1100px) {
+//   // Organism
+
+//   .mobile-section-one {
+//     display: none;
+//   }
+//   .desktop-area {
+//     display: flex;
+//     flex-direction: row;
+//     margin: 3vw 17vw;
+//   }
+//   .box1 {
+//     width: 40%;
+//     margin-right: 3vw;
+//   }
+//   .box2 {
+//     width: 60%;
+//     margin-left: 3vw;
+//   }
+//   .main-image-area {
+//     width: 100%;
+//     height: 24vw;
+//   }
+//   .button-two-one-area {
+//     float: right;
+//   }
+//   .main-image-area {
+//     background-image: url(../imgs/deskTopWhite.jpg);
+//     background-size: cover;
+//     margin-top: 5vw;
+//   }
+//   .main-header-area,
+//   .para-description-area,
+//   .button-one-area {
+//     width: 45vw;
+//     height: auto;
+//   }
+//   .main-header-area,
+//   .para-description-area {
+//     width: 25vw;
+//   }
+//   .para-description-area {
+//     margin-bottom: 5vw;
+//   }
+//   .button-one-area,
+//   .button-two-one-area {
+//     height: 50px;
+//     width: 180px;
+//     background-color: blue;
+//   }
+//   .button-one-area {
+//     margin-top: 1vw;
+//   }
+//   // Atoms
+//   .main-header-text {
+//     font-size: 5rem;
+//     line-height: 5rem;
+//     //border: solid black 0.5px;
+//   }
+//   .para-des-text {
+//     font-size: 2rem;
+//     line-height: 3rem;
+//     margin-top: 0.5vw;
+//   }
+//   .logo-area-desk {
+//     margin-bottom: 5vw;
+//     font-size: 2rem;
+//   }
+// }
+
+// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Small laptop screen
 
 @media (max-width: 1600px) {
-  .desktop-area {
-    display: flex;
-    flex-direction: row;
-    margin: 3vw 7vw;
-    //margin: 100px 300px;
+  // .desktop-area {
+  //   display: flex;
+  //   flex-direction: row;
+  //   margin: 3vw 7vw;
+  // }
+
+  .box1 {
+    width: 30%;
+    // margin-left: auto;
+    // margin-bottom: 5vw;
+    margin: 5vw 0 5vw auto;
+  }
+  .box2 {
+    width: 55%;
+    margin-right: auto;
+    margin: 5vw auto 5vw 0;
   }
 }
-///////////////////////////////////
+// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
