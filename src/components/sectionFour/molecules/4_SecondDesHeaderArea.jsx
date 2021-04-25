@@ -1,5 +1,5 @@
 import React from "react";
-import MidDesText from "../../sectionTwo/atoms/MidDesText";
+import MidDesText from "../atoms/MidDesText";
 
 function FSecondDesHeaderArea() {
   return (

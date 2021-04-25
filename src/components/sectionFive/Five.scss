@@ -1,69 +1,88 @@
-// Organism
-.section-five {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+// Small laptop screen
+
+@media (max-width: 1600px) {
+  .section-five {
+    grid-area: section-five;
+    background-color: #dbefc2;
+    margin: 0vw 5vw;
+  }
+
+  .five-circle-text {
+    margin: 0vw 1vw;
+  }
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media (max-width: 530px) {
+  // Organism
+  .section-five {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  // Molecules
+  .little-text-area {
+    margin-right: 64vw;
+
+    height: fit-content;
+    width: 20vw;
+    //border: 1px solid black;
+    margin-top: 20vw;
+  }
+  .f-main-header-area,
+  .five-main-text-area,
+  .one-card-area,
+  .two-card-area,
+  .three-card-area {
+    width: 85vw;
+    height: fit-content;
+    margin-top: 10vw;
+    //border: solid black 0.5px;
+    font-size: 2rem;
+  }
+  .one-card-area {
+    margin-top: 20vw;
+  }
+  .three-card-area {
+    margin-bottom: 20vw;
+  }
+  .one-card-area,
+  .two-card-area,
+  .three-card-area {
+    //border: solid black 0.5px;
+    height: 70vw;
+    background-color: rgba(160, 115, 174, 0.35);
+  }
+  // inner boxes imgs and text
+  .pic-box-one,
+  .header-box,
+  .header-box-text,
+  .pic-box-two,
+  .pic-box-three {
+    margin: 7vw 6vw;
+  }
+  .pic-box-one,
+  .pic-box-two,
+  .pic-box-three {
+    //img url
+    height: 15vw;
+    width: 15vw;
+    border: solid 0.5px black;
+  }
+  .header-box-text {
+    font-size: 1.5rem;
+  }
+  .header-box {
+    margin-top: 10vw;
+  }
+  .pic-box-two {
+    //img url
+  }
+  .pic-box-three {
+    //img url
+  }
+  // Atoms
 }
 
-// Molecules
-.little-text-area {
-  margin-right: 64vw;
-
-  height: fit-content;
-  width: 20vw;
-  //border: 1px solid black;
-  margin-top: 20vw;
+@media (min-width: 531px) {
 }
-.f-main-header-area,
-.five-main-text-area,
-.one-card-area,
-.two-card-area,
-.three-card-area {
-  width: 85vw;
-  height: fit-content;
-  margin-top: 10vw;
-  //border: solid black 0.5px;
-  font-size: 2rem;
-}
-.one-card-area {
-  margin-top: 20vw;
-}
-.three-card-area {
-  margin-bottom: 20vw;
-}
-.one-card-area,
-.two-card-area,
-.three-card-area {
-  //border: solid black 0.5px;
-  height: 70vw;
-  background-color: rgba(160, 115, 174, 0.35);
-}
-// inner boxes imgs and text
-.pic-box-one,
-.header-box,
-.header-box-text,
-.pic-box-two,
-.pic-box-three {
-  margin: 7vw 6vw;
-}
-.pic-box-one,
-.pic-box-two,
-.pic-box-three {
-  //img url
-  height: 15vw;
-  width: 15vw;
-  border: solid 0.5px black;
-}
-.header-box-text {
-  font-size: 1.5rem;
-}
-.header-box {
-  margin-top: 10vw;
-}
-.pic-box-two {
-  //img url
-}
-.pic-box-three {
-  //img url
-}
-// Atoms

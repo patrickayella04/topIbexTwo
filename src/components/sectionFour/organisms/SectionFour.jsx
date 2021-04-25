@@ -1,5 +1,6 @@
 import React from "react";
 import FBottomBoxArea from "../molecules/4_BottomBoxArea";
+import BottomTwoBox from "../molecules/4_BottomTwoBox";
 import FCardImageArea from "../molecules/4_CardImageArea";
 import FCircleImgArea from "../molecules/4_CircleImgArea";
 import FDesHeaderArea from "../molecules/4_DesHeaderArea";
@@ -12,6 +13,23 @@ function SectionFour() {
   return (
     <>
       <div className="section-four">
+        <div className="desktop-four-area">
+          <div className="box1-four">
+            <FMainSecondHeaderArea />
+            <FDesHeaderArea />
+            <FSecondHeaderArea />
+            <FSecondDesHeaderArea />
+            <FCircleImgArea />
+          </div>
+          <div className="box2-four">
+            <FCardImageArea />
+            <FInnerCardArea />
+          </div>
+        </div>
+        <FBottomBoxArea />
+      </div>
+
+      <div className="section-four mobile-section-four">
         <FMainSecondHeaderArea />
         <FDesHeaderArea />
         <FSecondHeaderArea />
@@ -20,6 +38,7 @@ function SectionFour() {
         <FCardImageArea />
         <FInnerCardArea />
         <FBottomBoxArea />
+        <BottomTwoBox />
       </div>
     </>
   );

@@ -10,6 +10,22 @@ function SectionFive() {
   return (
     <>
       <div className="section-five">
+        <div className="desktop-five-area">
+          <div className="box1-five">
+            <LittleHeader />
+            <MainHeader />
+            <MainTextArea />
+          </div>
+
+          <div className="box2-five">
+            <OneCardArea />
+            <TwoCardArea />
+            <ThreeCardArea />
+          </div>
+        </div>
+      </div>
+
+      <div className="section-five mobile-section-five">
         <LittleHeader />
         <MainHeader />
         <MainTextArea />
