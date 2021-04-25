@@ -1,5 +1,5 @@
 import React from "react";
-import MidHeaderText from "../../sectionTwo/atoms/MidHeaderText";
+import MidHeaderText from "../atoms/MidHeaderText";
 
 function TSecondHeaderArea() {
   return (

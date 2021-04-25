@@ -1,6 +1,5 @@
 import React from "react";
-import HeaderText from "../atoms/HeaderText";
-import MidDesText from "../atoms/MidDesText";
+
 import MidHeaderText from "../atoms/MidHeaderText";
 
 function SecondHeaderArea() {
