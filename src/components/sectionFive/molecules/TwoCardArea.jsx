@@ -1,9 +1,13 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
 
 function TwoCardArea() {
   return (
     <div className="two-card-area">
-      <div className="pic-box-two"></div>
+      <div className="pic-box-two">
+        <FontAwesomeIcon icon={faBookOpen} size="2x" />
+      </div>
       <h6 className="header-box">TILE OF CARD</h6>
       <p className="header-box-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat

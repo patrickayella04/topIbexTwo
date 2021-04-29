@@ -65,7 +65,7 @@ html {
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
     display: grid;
-    grid-template-rows: auto auto auto auto auto 180vw;
+    grid-template-rows: auto auto auto auto auto auto;
 
     grid-template-areas:
       "nav"
