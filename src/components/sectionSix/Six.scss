@@ -1,49 +1,293 @@
-// Organism
-.section-six {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+// Small laptop screen
+
+// @media (max-width: 1600px) {
+//   .s-main-header-area,
+//   .s-des-area {
+//     //border: solid 0.5px white;
+//     //width: 85vw;
+//     //height: 20vw;
+//     //margin-top: 10vw;
+//     margin: 0vw 5vw;
+//   }
+//   .s-button-area {
+//     margin: 10vw 5vw;
+//   }
+// }
+// Small laptop screen
+@media (min-width: 1600px) {
+  .s-main-header-area,
+  .s-des-area {
+    //border: solid 0.5px white;
+    //width: 85vw;
+    //height: 20vw;
+    //margin-top: 10vw;
+    margin: 0vw 5vw;
+  }
+  .s-button-area {
+    margin: 10vw 5vw;
+  }
+
+  // Organism
+  .section-six {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mobile-section-six {
+    display: none;
+  }
+  // Molecuels
+  .s-main-header-area,
+  .s-des-area {
+    //border: solid 0.5px white;
+    margin: 0 5vw;
+    //height: 20vw;
+    margin-top: 10vw;
+  }
+
+  .s-main-header-area {
+    //margin-top: 20vw;
+    margin-right: 45vw;
+  }
+  .s-des-area {
+    //height: 15vw;
+    margin-top: 5vw;
+  }
+  .s-button-area {
+    // //width: 85vw;
+    // margin-right: 33.5vw;
+    // height: 15vw;
+    // width: 51.5vw;
+    // background-color: blue;
+    // margin-top: 7.5vw;
+    margin: 10vw 5vw;
+    height: 50px;
+    width: 180px;
+    background-color: blue;
+  }
+  .s-footer-area {
+    //border: solid 0.5px white;
+    //margin: 20vw  5vw;
+    display: flex;
+    place-content: center;
+    margin-top: 20vw;
+    margin-bottom: 5vw;
+    // place-items: center;
+  }
+  // Atoms
+  .s-footer-text,
+  .s-header-text,
+  .s-des-area {
+    color: white;
+  }
+  .s-footer-text {
+    //border: solid white 0.5px;
+  }
+  .s-header-text {
+    font-size: 5rem;
+  }
+  .s-des-area {
+    font-size: 3rem;
+  }
 }
-// Molecuels
-.s-main-header-area,
-.s-des-area {
-  //border: solid 0.5px white;
-  width: 85vw;
-  height: 20vw;
-  margin-top: 10vw;
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media (max-width: 530px) {
+  // Organism
+  .section-six {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: auto;
+  }
+  // .desktop-six-are {
+  //   display: none;
+  // }
+  // Molecuels
+  .s-main-header-area,
+  .s-des-area {
+    //border: solid 0.5px white;
+    width: 85vw;
+    height: 20vw;
+    margin-top: 10vw;
+  }
+  .s-main-header-area {
+    margin-top: 20vw;
+  }
+  .s-des-area {
+    height: 50vw;
+  }
+  .s-button-area {
+    width: 85vw;
+    margin-right: 33.5vw;
+    height: 15vw;
+    width: 51.5vw;
+    background-color: blue;
+    margin-top: 7.5vw;
+  }
+  .s-footer-area {
+    //border: solid 0.5px white;
+    margin-top: 55vw;
+    margin-bottom: 5vw;
+    place-items: center;
+  }
+  // Atoms
+  .s-footer-text,
+  .s-header-text,
+  .s-des-area {
+    color: white;
+  }
+  .s-footer-text {
+    //border: solid white 0.5px;
+  }
+  .s-header-text {
+    font-size: 3rem;
+  }
+  .s-des-area {
+    font-size: 2rem;
+  }
 }
-.s-main-header-area {
-  margin-top: 20vw;
+//////////////////////////////////////////////////////////
+@media (min-width: 531px) {
+  // Organism
+  .section-six {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mobile-section-six {
+    display: none;
+  }
+  // Molecuels
+  .s-main-header-area,
+  .s-des-area {
+    //border: solid 0.5px white;
+    margin: 0 17vw;
+    //height: 20vw;
+    margin-top: 10vw;
+  }
+
+  .s-main-header-area {
+    //margin-top: 20vw;
+    margin-right: 45vw;
+  }
+  .s-des-area {
+    //height: 15vw;
+    margin-top: 5vw;
+  }
+  .s-button-area {
+    // //width: 85vw;
+    // margin-right: 33.5vw;
+    // height: 15vw;
+    // width: 51.5vw;
+    // background-color: blue;
+    // margin-top: 7.5vw;
+    margin: 10vw 17vw;
+    height: 50px;
+    width: 180px;
+    background-color: blue;
+  }
+  .s-footer-area {
+    //border: solid 0.5px white;
+    //margin: 20vw  5vw;
+    display: flex;
+    place-content: center;
+    margin-top: 20vw;
+    margin-bottom: 5vw;
+    // place-items: center;
+  }
+  // Atoms
+  .s-footer-text,
+  .s-header-text,
+  .s-des-area {
+    color: white;
+  }
+  .s-footer-text {
+    //border: solid white 0.5px;
+  }
+  .s-header-text {
+    font-size: 5rem;
+  }
+  .s-des-area {
+    font-size: 3rem;
+  }
 }
-.s-des-area {
-  height: 50vw;
-}
-.s-button-area {
-  width: 85vw;
-  margin-right: 33.5vw;
-  height: 15vw;
-  width: 51.5vw;
-  background-color: blue;
-  margin-top: 7.5vw;
-}
-.s-footer-area {
-  //border: solid 0.5px white;
-  margin-top: 55vw;
-  margin-bottom: 5vw;
-  place-items: center;
-}
-// Atoms
-.s-footer-text,
-.s-header-text,
-.s-des-area {
-  color: white;
-}
-.s-footer-text {
-  //border: solid white 0.5px;
-}
-.s-header-text {
-  font-size: 3rem;
-}
-.s-des-area {
-  font-size: 2rem;
-}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Small laptop screen
+// @media (min-width: 1600px) {
+//   .s-main-header-area,
+//   .s-des-area {
+//     //border: solid 0.5px white;
+//     //width: 85vw;
+//     //height: 20vw;
+//     //margin-top: 10vw;
+//     margin: 0vw 5vw;
+//   }
+//   .s-button-area {
+//     margin: 10vw 5vw;
+//   }
+
+//   // Organism
+//   .section-six {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//   }
+//   .mobile-section-six {
+//     display: none;
+//   }
+//   // Molecuels
+//   .s-main-header-area,
+//   .s-des-area {
+//     //border: solid 0.5px white;
+//     margin: 0 5vw;
+//     //height: 20vw;
+//     margin-top: 10vw;
+//   }
+
+//   .s-main-header-area {
+//     //margin-top: 20vw;
+//     margin-right: 45vw;
+//   }
+//   .s-des-area {
+//     //height: 15vw;
+//     margin-top: 5vw;
+//   }
+//   .s-button-area {
+//     // //width: 85vw;
+//     // margin-right: 33.5vw;
+//     // height: 15vw;
+//     // width: 51.5vw;
+//     // background-color: blue;
+//     // margin-top: 7.5vw;
+//     margin: 10vw 5vw;
+//     height: 50px;
+//     width: 180px;
+//     background-color: blue;
+//   }
+//   .s-footer-area {
+//     //border: solid 0.5px white;
+//     //margin: 20vw  5vw;
+//     display: flex;
+//     place-content: center;
+//     margin-top: 20vw;
+//     margin-bottom: 5vw;
+//     // place-items: center;
+//   }
+//   // Atoms
+//   .s-footer-text,
+//   .s-header-text,
+//   .s-des-area {
+//     color: white;
+//   }
+//   .s-footer-text {
+//     //border: solid white 0.5px;
+//   }
+//   .s-header-text {
+//     font-size: 5rem;
+//   }
+//   .s-des-area {
+//     font-size: 3rem;
+//   }
+// }

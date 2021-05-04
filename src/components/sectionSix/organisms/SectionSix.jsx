@@ -8,6 +8,15 @@ function SectionSix() {
   return (
     <>
       <div className="section-six">
+        <div className="desktop-six-area">
+          <MainHeader />
+          <DesArea />
+          <ButtonArea />
+          <FooterArea />
+        </div>
+      </div>
+
+      <div className="section-six mobile-section-six">
         <MainHeader />
         <DesArea />
         <ButtonArea />
