@@ -3,10 +3,8 @@
 @media (max-width: 1600px) {
   .section-five {
     grid-area: section-five;
-    //   background-color: #ffffff;
     margin: 0vw 5vw;
   }
-
   .five-circle-text {
     margin: 0vw 1vw;
   }
@@ -14,7 +12,8 @@
     font-size: 1em;
   }
 }
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// Mobile ///////////////////////////////
+
 @media (max-width: 530px) {
   // Organism
   .section-five {
@@ -22,7 +21,6 @@
     flex-direction: column;
     align-items: center;
   }
-
   // Molecules
   .little-text-area {
     margin-right: 64vw;
@@ -38,7 +36,7 @@
     width: 85vw;
     height: fit-content;
     margin-top: 10vw;
-    font-size: 2rem;
+    font-size: $secFiveHeaderMobFs;
   }
   .one-card-area {
     margin-top: 20vw;
@@ -49,7 +47,6 @@
   .one-card-area,
   .two-card-area,
   .three-card-area {
-    //border: solid black 0.5px;
     height: 70vw;
     background-color: rgba(160, 115, 174, 0.35);
   }
@@ -75,12 +72,6 @@
   .header-box {
     margin-top: 10vw;
   }
-  .pic-box-two {
-    //img url
-  }
-  .pic-box-three {
-    //img url
-  }
   // Atoms
   .fa-2x {
     font-size: 3em;
@@ -90,7 +81,7 @@
     padding-left: 0vw;
   }
 }
-//////////////////////////////////////////////////////////
+/////////////////////////////// Desktop ///////////////////////////////
 
 @media (min-width: 531px) {
   // Organism
@@ -103,43 +94,25 @@
   .mobile-section-five {
     display: none;
   }
-  .desktop-five-area {
-    //display: flex;
-    //flex-wrap: wrap;
-  }
-  .box1-five {
-    // width: 29%;
-    // margin: 0 3vw 0vw auto;
-  }
   .box2-five {
-    // width: 65%;
-    // margin-right: auto;
-    // margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 2rem;
   }
-
   // Molecules
   .little-text-area {
     margin-right: 5vw;
-
     height: fit-content;
-    //width: 5vw;
-    //border: 1px solid black;
     margin-top: 5vw;
   }
-
   .f-main-header-area,
   .five-main-text-area,
   .two-card-area,
   .three-card-area,
   .one-card-area {
-    //width: 85vw;
     height: fit-content;
     margin-top: 3vw;
-    //border: solid black 0.5px;
-    font-size: 3rem;
+    font-size: $secFiveHeaderFs;
   }
   .five-main-text-area {
     font-size: 2rem;
@@ -150,23 +123,13 @@
     margin-top: 2vw;
     margin-right: 35vw;
   }
-  .one-card-area {
-    //margin-top: 2vw;
-  }
-  // .three-card-area {
-  //   margin-bottom: 2vw;
-  // }
   .one-card-area,
   .two-card-area,
   .three-card-area {
-    //border: solid black 0.5px;
     height: fit-content;
-    //width: 20%;
     background-color: rgba(160, 115, 174, 0.35);
-    //margin-right: 3vw;
   }
   // inner boxes imgs and text
-
   .header-box,
   .header-box-text,
   .pic-box-one,
@@ -186,15 +149,4 @@
   .header-box-text {
     font-size: 1.5rem;
   }
-
-  .header-box {
-    //margin-top: 10vw;
-  }
-  .pic-box-two {
-    //img url
-  }
-  .pic-box-three {
-    //img url
-  }
-  // Atoms
 }
