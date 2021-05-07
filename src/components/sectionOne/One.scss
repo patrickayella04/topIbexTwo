@@ -31,7 +31,8 @@
     margin-right: 33.5vw;
     height: 15vw;
     width: 51.5vw;
-    background-color: blue;
+    //background-color: blue;
+    background-color: $secOneButton;
     margin-top: 7.5vw;
     margin-bottom: 10vw;
   }
@@ -110,7 +111,8 @@
   .button-two-one-area {
     height: 50px;
     width: 180px;
-    background-color: blue;
+    //background-color: blue;
+    background-color: $secOneButton;
   }
   .button-one-area {
     margin-top: 1vw;

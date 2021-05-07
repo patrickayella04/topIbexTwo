@@ -1,15 +1,33 @@
-/// Overall Layout structure
+///////////////////////////// Overall Layout structure ///////////////////////////////
 * {
   margin: 0;
   padding: 0;
 }
+// "index.html": "/index.html",
 html {
   font-size: 62.5%; /* 1 rem is now 1 10 pixles*/
   box-sizing: border-box;
 }
 
-// Mobile
-@media (max-width: 530px) {
+///////////////////////////// SCSS Variables/MIXINS for components ///////////////////////////////
+
+// SECTION ONE VARIABLES /////////////////////////////
+
+// Section One Themes/colors
+// background
+$secOneBg: #ffffff;
+// buttons
+$secOneButton: #0000ff;
+
+// SECTION TWO VARIABLES /////////////////////////////
+
+// Section Two Themes/colors
+
+$secTwoBg: #ffc0cbb0;
+
+/////////////////////////////// Mobile ///////////////////////////////
+
+@media (max-width: 530px,) {
   .App {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -33,11 +51,13 @@ html {
   }
   .section-one {
     grid-area: section-one;
-    background-color: #ffffff;
+    //background-color: #ffffff;
+    background-color: $secOneBg;
   }
   .section-two {
     grid-area: section-two;
-    background-color: rgba(255, 192, 203, 0.69);
+    // background-color: rgba(255, 192, 203, 0.69);
+    background-color: $secTwoBg;
     margin-bottom: 10vw;
   }
   .section-three {
@@ -58,6 +78,7 @@ html {
     background-color: #000000;
   }
 }
+/////////////////////////////// Desktop ///////////////////////////////
 
 @media (min-width: 531px) {
   .App {
@@ -83,11 +104,13 @@ html {
   }
   .section-one {
     grid-area: section-one;
-    background-color: #ffffff;
+    // background-color: #ffffff;
+    background-color: $secOneBg;
   }
   .section-two {
     grid-area: section-two;
-    background-color: #ffc0cbb0;
+    background-color: $secTwoBg;
+    //background-color: #ffc0cbb0;
     //margin-bottom: 10vw;
     // margin: 0 7vw;
     margin: 0 17vw;
@@ -126,7 +149,8 @@ html {
   }
 }
 
-/// Imports from components
+/////////////////////////////// SCSS Imports from components ///////////////////////////////
+
 @import "src/components/navigation/navigation.scss";
 @import "src/components/sectionOne/One.scss";
 @import "src/components/sectionTwo/Two.scss";
@@ -134,58 +158,3 @@ html {
 @import "src/components/sectionFour/Four.scss";
 @import "src/components/sectionFive/Five.scss";
 @import "src/components/sectionSix/Six.scss";
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-// // Desktop
-// @media (min-width: 992px) {
-//   .App {
-//     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-//       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-
-//     display: grid;
-//     // grid-template-rows: 65px 185vw auto auto auto auto 180vw;
-//     grid-template-rows: auto auto auto auto auto;
-
-//     grid-template-areas:
-//       "nav"
-//       "section-one"
-//       "section-two"
-//       "section-three"
-//       "section-four"
-//       "section-five"
-//       "section-six";
-//   }
-
-//   .nav-area {
-//     grid-area: nav;
-//     background-color: #000000;
-//     display: none;
-//   }
-//   .desktop-area {
-//     grid-area: section-one;
-//     background-color: #ffffff;
-//   }
-//   .section-two {
-//     grid-area: section-two;
-//     background-color: rgba(255, 192, 203, 0.69);
-//     margin-bottom: 10vw;
-//   }
-//   .section-three {
-//     grid-area: section-three;
-//     background-color: #d8d3f8;
-//     margin-bottom: 10vw;
-//   }
-//   .section-four {
-//     grid-area: section-four;
-//     background-color: #dbefc2;
-//   }
-//   .section-five {
-//     grid-area: section-five;
-//     background-color: #ffffff;
-//   }
-//   .section-six {
-//     grid-area: section-six;
-//     background-color: #000000;
-//   }
-// }
-// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
