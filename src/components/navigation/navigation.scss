@@ -1,6 +1,11 @@
 // Mobile
 @media (max-width: 530px) {
-  .fa-2x {
+  // .burger.fa-2x {
+  //   color: white;
+  //   padding-left: 65vw;
+  //   //padding-top: 20px;
+  // }
+  .burger {
     color: white;
     padding-left: 65vw;
     //padding-top: 20px;
@@ -31,7 +36,12 @@
 }
 
 @media (max-width: 345px) {
-  .fa-2x {
+  // .burger.fa-2x {
+  //   color: white;
+  //   padding-left: 55vw;
+  //   //padding-top: 20px;
+  // }
+  .burger {
     color: white;
     padding-left: 55vw;
     //padding-top: 20px;

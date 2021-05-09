@@ -5,8 +5,8 @@ import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
 function TwoCardArea() {
   return (
     <div className="two-card-area">
-      <div className="pic-box-two">
-        <FontAwesomeIcon icon={faBookOpen} size="2x" />
+      <div className="pic-box-two five-icon">
+        <FontAwesomeIcon icon={faBookOpen} size="2x" className="five-icon" />
       </div>
       <h6 className="header-box">TILE OF CARD</h6>
       <p className="header-box-text">

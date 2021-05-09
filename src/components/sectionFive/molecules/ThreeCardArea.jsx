@@ -4,8 +4,12 @@ import { faBalanceScale } from "@fortawesome/free-solid-svg-icons";
 function ThreeCardArea() {
   return (
     <div className="three-card-area">
-      <div className="pic-box-three">
-        <FontAwesomeIcon icon={faBalanceScale} size="2x" />
+      <div className="pic-box-three five-icon">
+        <FontAwesomeIcon
+          icon={faBalanceScale}
+          size="2x"
+          className="five-icon"
+        />
       </div>
       <h6 className="header-box">TILE OF CARD</h6>
       <p className="header-box-text">

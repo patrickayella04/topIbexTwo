@@ -8,8 +8,13 @@
   .five-circle-text {
     margin: 0vw 1vw;
   }
-  .fa-2x {
+  // .five-icon.fa-2x {
+  //   font-size: 1em;
+  //   color: $secFiveIconsColor;
+  // }
+  .five-icon {
     font-size: 1em;
+    color: $secFiveIconsColor;
   }
 }
 /////////////////////////////// Mobile ///////////////////////////////
@@ -48,7 +53,7 @@
   .two-card-area,
   .three-card-area {
     height: 70vw;
-    background-color: rgba(160, 115, 174, 0.35);
+    background-color: $secFiveCardsBg;
   }
   // inner boxes imgs and text
   .pic-box-one,
@@ -61,10 +66,8 @@
   .pic-box-one,
   .pic-box-two,
   .pic-box-three {
-    //img url
     height: 15vw;
     width: 15vw;
-    //border: solid 0.5px black;
   }
   .header-box-text {
     font-size: 1.5rem;
@@ -76,8 +79,8 @@
   .fa-2x {
     font-size: 3em;
   }
-  .fa-2x {
-    color: black;
+  .five-icon {
+    color: $secFiveIconsColor;
     padding-left: 0vw;
   }
 }
@@ -127,7 +130,7 @@
   .two-card-area,
   .three-card-area {
     height: fit-content;
-    background-color: rgba(160, 115, 174, 0.35);
+    background-color: $secFiveCardsBg;
   }
   // inner boxes imgs and text
   .header-box,
@@ -140,13 +143,14 @@
   .pic-box-one,
   .pic-box-two,
   .pic-box-three {
-    //img url
     height: 4vw;
     width: 4vw;
     margin: 2vw 2vw;
-    //border: solid 0.5px black;
   }
   .header-box-text {
     font-size: 1.5rem;
+  }
+  .five-icon {
+    color: $secFiveIconsColor;
   }
 }
