@@ -3,10 +3,11 @@ import React from "react";
 function OneInner() {
   return (
     <div className="t-one-inner">
-      <h2 className="t-header-one-inner">TITLE TEXT</h2> <br />
+      <h2 className="t-header-one-inner">Vote In</h2> <br />
       <p className="t-text-one-inner">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat
-        at eros et sagittis, Lorem ipsum dolor
+        With our Vote In product your customers can vote for there favourite
+        product with feedback. You'll have unprecedented knowledge about your
+        customers demands.
       </p>
     </div>
   );

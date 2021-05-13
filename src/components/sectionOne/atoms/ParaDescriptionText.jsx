@@ -3,8 +3,8 @@ import React from "react";
 function ParaDescriptionText() {
   return (
     <p className="para-des-text">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat at
-      eros et sagittis consectetur adipiscing.
+      Maximaise the growth of your business <br /> with its own bespoke website
+      designed for the future.
     </p>
   );
 }

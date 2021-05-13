@@ -1,57 +1,3 @@
-/////////////////////////////// Mobile ///////////////////////////////
-@media (max-width: 530px) {
-  // Organism
-  .section-one {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  // Molecules
-  .main-image-area,
-  .main-header-area,
-  .para-description-area,
-  .button-one-area {
-    width: 85vw;
-    height: 63vw;
-    margin-top: 5vw;
-  }
-  .main-image-area {
-    background-image: url(../imgs/deskTopWhite.jpg);
-    background-size: cover;
-  }
-  .main-header-area,
-  .para-description-area,
-  .button-one-area {
-    width: 85vw;
-    height: auto;
-    margin-top: 10vw;
-  }
-  .button-one-area {
-    margin-right: 33.5vw;
-    height: 15vw;
-    width: 51.5vw;
-    background-color: $secOneButton;
-    margin-top: 7.5vw;
-    margin-bottom: 10vw;
-  }
-  // Atoms
-  .main-header-text {
-    font-size: $mainHeadersMobFs;
-    line-height: 5rem;
-  }
-  .para-des-text {
-    font-size: 2rem;
-    line-height: 3rem;
-  }
-  .logo-area-top {
-    display: none;
-  }
-  .box1,
-  .box2 {
-    display: none;
-  }
-}
 /////////////////////////////// Desktop ///////////////////////////////
 
 @media (min-width: 531px) {
@@ -95,7 +41,7 @@
   }
   .main-header-area,
   .para-description-area {
-    width: 25vw;
+    width: 22vw;
   }
   .para-description-area {
     margin-bottom: 5vw;
@@ -112,7 +58,7 @@
   // Atoms
   .main-header-text {
     font-size: 5rem;
-    line-height: 5rem;
+    line-height: 6rem;
     //border: solid black 0.5px;
   }
   .para-des-text {
@@ -128,8 +74,7 @@
     margin-top: 7vw;
   }
 }
-
-// Small laptop screen
+/////////////////////////////// Small laptop screen ///////////////////////////////
 
 @media (max-width: 1600px) {
   .box1 {
@@ -142,5 +87,63 @@
     width: 55%;
     margin-right: auto;
     margin: 5vw auto 5vw 0;
+  }
+  .main-header-area,
+  .para-description-area {
+    width: 25vw;
+  }
+}
+/////////////////////////////// Mobile ///////////////////////////////
+@media (max-width: 530px) {
+  // Organism
+  .section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  // Molecules
+  .main-image-area,
+  .main-header-area,
+  .para-description-area,
+  .button-one-area {
+    width: 85vw;
+    height: 63vw;
+    margin-top: 5vw;
+  }
+  .main-image-area {
+    background-image: url(../imgs/deskTopWhite.jpg);
+    background-size: cover;
+  }
+  .main-header-area,
+  .para-description-area,
+  .button-one-area {
+    width: 85vw;
+    height: auto;
+    margin-top: 5vw;
+  }
+  .button-one-area {
+    margin-right: 33.5vw;
+    height: 15vw;
+    width: 51.5vw;
+    background-color: $secOneButton;
+    margin-top: 7.5vw;
+    margin-bottom: 10vw;
+  }
+  // Atoms
+  .main-header-text {
+    font-size: $mainHeadersMobFs;
+    line-height: 5rem;
+  }
+  .para-des-text {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .logo-area-top {
+    display: none;
+  }
+  .box1,
+  .box2 {
+    display: none;
   }
 }

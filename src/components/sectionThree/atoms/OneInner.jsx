@@ -3,10 +3,10 @@ import React from "react";
 function OneInner() {
   return (
     <div className="th-one-inner">
-      <h2 className="th-header-one-inner">TITLE TEXT</h2> <br />
+      <h2 className="th-header-one-inner">Easy Pay</h2> <br />
       <p className="th-text-one-inner">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat
-        at eros et sagittis, Lorem ipsum dolor
+        Purchases of products are fast, easy &amp; secure for your customers to
+        make. Payment transactions can now happen confidently &amp; hassel free!
       </p>
     </div>
   );

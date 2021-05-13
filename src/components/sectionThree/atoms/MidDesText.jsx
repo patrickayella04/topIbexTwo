@@ -3,9 +3,11 @@ import React from "react";
 function MidDesText() {
   return (
     <div className="th-mid-des-text">
-      “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat
-      at eros et sagittis, Lorem ipsum dolor sit amet, consectetur adipiscing
-      elit. Fusce volutpat at eros et sagittis, ksad.”
+      "E-Commerce is essential in all types of retail or production businesses
+      today. Our bespoke UI/UX design standards will give your customers easy
+      access to your products, from display to puchase. Our team will enable
+      your customers online shopping expreience to remain easy, secure and
+      fast."
     </div>
   );
 }

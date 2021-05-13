@@ -2,9 +2,7 @@ import React from "react";
 
 function TDesHeader() {
   return (
-    <p className="three-des-header">
-      Lorem ipsum dolor sit amet klsdfjlskd klsadj.
-    </p>
+    <p className="three-des-header">Online purchases can happen at anytime.</p>
   );
 }
 

@@ -3,10 +3,11 @@ import React from "react";
 function TwoInner() {
   return (
     <div className="t-two-inner">
-      <h2 className="t-header-one-inner">TITLE TEXT</h2> <br />
+      <h2 className="t-header-one-inner">Reviews Over</h2> <br />
       <p className="t-text-one-inner">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat
-        at eros et sagittis, Lorem ipsum dolor
+        Reviews Over is a product that gives your site the option to allow your
+        customers to boast! Your amazing business can speak for itself and also
+        find its weaknesses.
       </p>
     </div>
   );

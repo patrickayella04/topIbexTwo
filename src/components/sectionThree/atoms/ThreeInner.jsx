@@ -1,10 +1,10 @@
 function ThreeInner() {
   return (
     <div className="th-three-inner">
-      <h2 className="th-header-one-inner">TITLE TEXT</h2> <br />
+      <h2 className="th-header-one-inner">Window Shopping</h2> <br />
       <p className="th-text-one-inner">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat
-        at eros et sagittis, Lorem ipsum dolor
+        Products are now fitted with full descriptions, specifications, &amp;
+        images that give your customers confidence to buy straight away.
       </p>
     </div>
   );
