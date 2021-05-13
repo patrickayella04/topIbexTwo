@@ -3,9 +3,9 @@ import React from "react";
 function MainText() {
   return (
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat at
-      eros et sagittisLorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Fusce volutpat at eros et sagittis
+      Website optimization is the process of using tools, advanced strategies,
+      and experiments to improve the performance of your website, further drive
+      more traffic, increase conversions, and grow revenue.
     </p>
   );
 }

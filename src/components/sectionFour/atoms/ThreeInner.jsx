@@ -1,10 +1,10 @@
 function ThreeInner() {
   return (
     <div className="f-three-inner">
-      <h2 className="f-header-one-inner">TITLE TEXT</h2> <br />
+      <h2 className="f-header-one-inner">White Space</h2> <br />
       <p className="f-text-one-inner">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat
-        at eros et sagittis, Lorem ipsum dolor
+        Understanding website structure is to understand design foundations that
+        visually combine site 'flow-direction' with information and aesthetics.
       </p>
     </div>
   );

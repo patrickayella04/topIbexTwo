@@ -8,10 +8,10 @@ function TwoCardArea() {
       <div className="pic-box-two five-icon">
         <FontAwesomeIcon icon={faBookOpen} size="2x" className="five-icon" />
       </div>
-      <h6 className="header-box">TILE OF CARD</h6>
+      <h6 className="header-box">OPO</h6>
       <p className="header-box-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat
-        at eros et sagittis.
+        On-page optimization (OPO) ensures prospects have the best user
+        experience while converting them into a lead.
       </p>
     </div>
   );

@@ -11,10 +11,10 @@ function ThreeCardArea() {
           className="five-icon"
         />
       </div>
-      <h6 className="header-box">TILE OF CARD</h6>
+      <h6 className="header-box">OME</h6>
       <p className="header-box-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat
-        at eros et sagittis.
+        Succeed online by focusing on your site’s mobile experience as well by
+        optimizing the mobile experience (OME).
       </p>
     </div>
   );

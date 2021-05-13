@@ -2,9 +2,7 @@ import React from "react";
 
 function FDesHeader() {
   return (
-    <p className="four-des-header">
-      Lorem ipsum dolor sit amet klsdfjlskd klsadj.
-    </p>
+    <p className="four-des-header">User interface &amp; experience are key.</p>
   );
 }
 

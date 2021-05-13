@@ -1,7 +1,7 @@
 import React from "react";
 
 function FHeaderText() {
-  return <h2 className="four-header-text">Fouth Title Text</h2>;
+  return <h2 className="four-header-text">True Aesthetics</h2>;
 }
 
 export default FHeaderText;

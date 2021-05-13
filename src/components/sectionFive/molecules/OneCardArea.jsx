@@ -8,10 +8,11 @@ function OneCardArea() {
       <div className="pic-box-one five-icon">
         <FontAwesomeIcon icon={faClone} size="2x" className="five-icon" />
       </div>
-      <h6 className="header-box">TILE OF CARD</h6>
+      <h6 className="header-box">SEO</h6>
       <p className="header-box-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat
-        at eros et sagittis.
+        One of the most critical aspects of website optimization is search
+        engine optimization (SEO). It's great to be found, but better to be
+        seen.
       </p>
     </div>
   );

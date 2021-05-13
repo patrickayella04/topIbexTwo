@@ -77,7 +77,8 @@
     background-position-y: -20px;
   }
   .two-inner-card-area {
-    height: 106vw;
+    height: fit-content;
+    //height: 106vw;
     border: none;
     margin-bottom: 15vw;
     background-color: $secTwoMobInnerCardBg;
@@ -92,7 +93,7 @@
   .t-two-inner,
   .t-three-inner {
     margin: 5vw 7vw;
-    height: 29vw;
+    //height: 29vw;
   }
   // Atoms
   .two-header-text {

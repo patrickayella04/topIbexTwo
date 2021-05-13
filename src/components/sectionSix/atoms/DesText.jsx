@@ -2,10 +2,11 @@ import React from "react";
 
 function DesText() {
   return (
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat at
-      eros et sagittis. Etiam quis arcu condimentum, dapibus enim non, maximus
-      dui. Phasellus non hendrerit velit.
+    <p className="s-des-text">
+      At TopIbex it’s not enough to just have a website for your business. We
+      will carefully design and optimize it to consider search engines, your
+      ideal customers, and other factors. Get in contact with us for a
+      consultation!
     </p>
   );
 }

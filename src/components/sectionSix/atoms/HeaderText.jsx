@@ -1,9 +1,7 @@
 import React from "react";
 
 function HeaderText() {
-  return (
-    <p className="s-header-text">Lorem ipsum dolor sit amet, consectetur</p>
-  );
+  return <p className="s-header-text">TopIbex Mission to Elevate </p>;
 }
 
 export default HeaderText;
