@@ -10,9 +10,8 @@ function OneCardArea() {
       </div>
       <h6 className="header-box">SEO</h6>
       <p className="header-box-text">
-        One of the most critical aspects of website optimization is search
-        engine optimization (SEO). It's great to be found, but better to be
-        seen.
+        A critical aspects of website optimization is search engine optimization
+        (SEO). It's great to be found, but better to be seen.
       </p>
     </div>
   );
