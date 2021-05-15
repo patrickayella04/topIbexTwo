@@ -182,7 +182,8 @@
     background-size: cover;
   }
   .four-inner-card-area {
-    height: 106vw;
+    //height: 106vw;
+    height: fit-content;
     border: none;
     margin-bottom: 15vw;
     background-color: $secFourMobInnerCardBg;
@@ -204,7 +205,8 @@
   .f-two-inner,
   .f-three-inner {
     margin: 5vw 7vw;
-    height: 29vw;
+    //height: 29vw;
+    height: fit-content;
   }
   // Atoms
   .four-header-text {

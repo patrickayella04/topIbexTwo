@@ -186,7 +186,8 @@
     background-size: cover;
   }
   .three-inner-card-area {
-    height: 106vw;
+    //height: 106vw;
+    height: fit-content;
     margin-bottom: 15vw;
     border: none;
     background-color: #c9c4ee;
@@ -208,7 +209,8 @@
   .th-two-inner,
   .th-three-inner {
     margin: 5vw 7vw;
-    height: 29vw;
+    //height: 29vw;
+    height: fit-content;
   }
   // Atoms
   .three-header-text {
