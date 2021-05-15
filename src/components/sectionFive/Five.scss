@@ -129,7 +129,8 @@
   .one-card-area,
   .two-card-area,
   .three-card-area {
-    height: fit-content;
+    //height: fit-content;
+    height: 20vw;
     background-color: $secFiveCardsBg;
   }
   // inner boxes imgs and text
@@ -138,7 +139,7 @@
   .pic-box-one,
   .pic-box-two,
   .pic-box-three {
-    margin: 2vw 2vw;
+    margin: 1vw 2vw;
   }
   .pic-box-one,
   .pic-box-two,
@@ -148,7 +149,8 @@
     margin: 2vw 2vw;
   }
   .header-box-text {
-    font-size: 1.5rem;
+    //font-size: 1.5rem;
+    font-size: 1.3vw;
   }
   .five-icon {
     color: $secFiveIconsColor;

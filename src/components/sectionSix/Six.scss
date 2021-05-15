@@ -84,6 +84,9 @@
     width: 51.5vw;
     background-color: blue;
     margin-top: 7.5vw;
+    display: flex;
+    align-items: center;
+    place-content: center;
   }
   .s-footer-area {
     margin-top: 55vw;
@@ -104,6 +107,10 @@
   }
   .s-des-area {
     font-size: 2rem;
+  }
+  .button-text-footer {
+    font-size: 1.5rem;
+    color: #ffffff;
   }
 }
 /////////////////////////////// Desktop ///////////////////////////////
@@ -136,6 +143,9 @@
     height: 50px;
     width: 180px;
     background-color: blue;
+    display: flex;
+    align-items: center;
+    place-content: center;
   }
   .s-footer-area {
     display: flex;
@@ -157,5 +167,9 @@
   }
   .s-des-area {
     font-size: 2.5rem;
+  }
+  .button-text-footer {
+    font-size: 1.5rem;
+    color: #ffffff;
   }
 }

@@ -51,6 +51,9 @@
     height: 50px;
     width: 180px;
     background-color: $secOneButton;
+    display: flex;
+    align-items: center;
+    place-content: center;
   }
   .button-one-area {
     margin-top: 1vw;
@@ -72,6 +75,10 @@
   }
   .main-header-area {
     margin-top: 7vw;
+  }
+  .button-text {
+    font-size: 1.5rem;
+    color: black;
   }
 }
 /////////////////////////////// Small laptop screen ///////////////////////////////
@@ -129,6 +136,12 @@
     background-color: $secOneButton;
     margin-top: 7.5vw;
     margin-bottom: 10vw;
+    display: flex;
+    align-items: center;
+    place-content: center;
+  }
+  .button-two-one-area {
+    display: none;
   }
   // Atoms
   .main-header-text {
@@ -145,5 +158,9 @@
   .box1,
   .box2 {
     display: none;
+  }
+  .button-text {
+    font-size: 1.5rem;
+    color: black;
   }
 }
