@@ -1,3 +1,113 @@
+/////////////////////////////// Desktop ///////////////////////////////
+
+@media (min-width: 531px) {
+  .nav-area {
+    display: none;
+  }
+  // Organism
+  .mobile-section-four {
+    display: none;
+  }
+  .desktop-four-area {
+    padding: 4vw 5rem 6rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box1-four {
+    width: 29%;
+    margin: 0 3vw 0vw auto;
+  }
+  .box2-four {
+    width: 65%;
+    margin-right: auto;
+    margin: 0 auto;
+  }
+  // Molecules
+  .four-main-header-area,
+  .four-des-header-area,
+  .four-second-header-area,
+  .four-second-des-header-area,
+  .four-circle-image-area {
+    height: fit-content;
+  }
+  .four-second-header-area {
+    margin-top: 2vw;
+  }
+  .four-second-header-area,
+  .four-second-des-header-area,
+  .four-circle-image-area {
+    background-color: $secFourBioCardBg;
+    padding: 2rem;
+  }
+  .four-des-header-area {
+    font-size: 2rem;
+    line-height: 3rem;
+    border: none;
+  }
+  .four-des-header-area,
+  .four-second-des-header-area {
+    height: fit-content;
+  }
+  .four-circle-image-area {
+    display: flex;
+    height: fit-content;
+    border: none;
+  }
+  .four-card-image,
+  .four-inner-card-area {
+    width: 100%;
+    height: 23vw;
+  }
+  .four-card-image {
+    background-image: url(../imgs/photoGreenTwo.jpg);
+    background-size: cover;
+    background-position-y: 0px;
+  }
+  .four-inner-card-area {
+    height: fit-content;
+    border: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(198px, 1fr));
+  }
+  .four-one-box-link {
+    width: 100%;
+    height: 4vw;
+    background-color: $secFourBoxLinkBg;
+  }
+  .f-one-inner,
+  .f-two-inner,
+  .f-three-inner {
+    padding: 2rem 3.5rem 0 0.5rem;
+  }
+  // Atoms
+  .four-header-text {
+    font-size: 6rem;
+  }
+  .four-circle-img {
+    height: 3.3vw;
+    width: 3.3vw;
+    border-radius: 45px;
+    background-image: url(../imgs/manArtistTwo.jpg);
+    background-position: center;
+    background-size: 110%;
+    background-position-y: -8px;
+  }
+  .four-circle-text {
+    font-size: 1.4rem;
+    margin: 0.5vw 1vw;
+    line-height: 20px;
+  }
+  .four-mid-header-text {
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
+  .four-mid-des-text {
+    font-size: 1.5rem;
+  }
+  .f-text-one-inner {
+    font-size: 1.5rem;
+  }
+}
 // Small laptop screen
 
 @media (max-width: 1600px) {
@@ -9,6 +119,9 @@
 
   .four-circle-text {
     margin: 0vw 1vw;
+  }
+  .four-header-text {
+    font-size: 5vw;
   }
 }
 /////////////////////////////// Mobile ///////////////////////////////
@@ -123,117 +236,6 @@
     font-weight: bolder;
   }
   .four-mid-des-text {
-    font-size: 1.5rem;
-  }
-}
-
-/////////////////////////////// Desktop ///////////////////////////////
-
-@media (min-width: 531px) {
-  .nav-area {
-    display: none;
-  }
-  // Organism
-  .mobile-section-four {
-    display: none;
-  }
-  .desktop-four-area {
-    padding: 4vw 5rem 6rem;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .box1-four {
-    width: 29%;
-    margin: 0 3vw 0vw auto;
-  }
-  .box2-four {
-    width: 65%;
-    margin-right: auto;
-    margin: 0 auto;
-  }
-  // Molecules
-  .four-main-header-area,
-  .four-des-header-area,
-  .four-second-header-area,
-  .four-second-des-header-area,
-  .four-circle-image-area {
-    height: fit-content;
-  }
-  .four-second-header-area {
-    margin-top: 2vw;
-  }
-  .four-second-header-area,
-  .four-second-des-header-area,
-  .four-circle-image-area {
-    background-color: $secFourBioCardBg;
-    padding: 2rem;
-  }
-  .four-des-header-area {
-    font-size: 2rem;
-    line-height: 3rem;
-    border: none;
-  }
-  .four-des-header-area,
-  .four-second-des-header-area {
-    height: fit-content;
-  }
-  .four-circle-image-area {
-    display: flex;
-    height: fit-content;
-    border: none;
-  }
-  .four-card-image,
-  .four-inner-card-area {
-    width: 100%;
-    height: 23vw;
-  }
-  .four-card-image {
-    background-image: url(../imgs/photoGreenTwo.jpg);
-    background-size: cover;
-    background-position-y: 0px;
-  }
-  .four-inner-card-area {
-    height: fit-content;
-    border: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(198px, 1fr));
-  }
-  .four-one-box-link {
-    width: 100%;
-    height: 4vw;
-    background-color: $secFourBoxLinkBg;
-  }
-  .f-one-inner,
-  .f-two-inner,
-  .f-three-inner {
-    padding: 2rem 3.5rem 0 0.5rem;
-  }
-  // Atoms
-  .four-header-text {
-    font-size: 6rem;
-  }
-  .four-circle-img {
-    height: 3.3vw;
-    width: 3.3vw;
-    border-radius: 45px;
-    background-image: url(../imgs/manArtistTwo.jpg);
-    background-position: center;
-    background-size: 110%;
-    background-position-y: -8px;
-  }
-  .four-circle-text {
-    font-size: 1.4rem;
-    margin: 0.5vw 1vw;
-    line-height: 20px;
-  }
-  .four-mid-header-text {
-    font-size: 2.5rem;
-    font-weight: bolder;
-  }
-  .four-mid-des-text {
-    font-size: 1.5rem;
-  }
-  .f-text-one-inner {
     font-size: 1.5rem;
   }
 }
