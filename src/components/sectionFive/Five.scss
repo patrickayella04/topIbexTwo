@@ -83,6 +83,10 @@
     color: $secFiveIconsColor;
     padding-left: 0vw;
   }
+  .five-little-header {
+    font-weight: lighter;
+    font-size: 1.8rem;
+  }
 }
 /////////////////////////////// Desktop ///////////////////////////////
 
@@ -154,5 +158,9 @@
   }
   .five-icon {
     color: $secFiveIconsColor;
+  }
+  .five-little-header {
+    font-weight: lighter;
+    font-size: 2rem;
   }
 }

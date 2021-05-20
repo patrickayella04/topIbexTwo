@@ -241,3 +241,12 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 530px), screen and (max-height: 700px - 900px) {
+  .two-main-header-area {
+    margin-top: 20vw;
+  }
+  .two-second-header-area {
+    margin-top: 10vw;
+  }
+}

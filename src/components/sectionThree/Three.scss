@@ -245,3 +245,14 @@
     font-size: 1.5rem;
   }
 }
+@media screen and (max-width: 530px), screen and (max-height: 700px - 900px) {
+  .three-main-header-area {
+    margin-top: 20vw;
+  }
+  .three-circle-image-area {
+    margin-top: 15vw;
+  }
+  .three-second-header-area {
+    margin-top: 10vw;
+  }
+}
