@@ -1,5 +1,8 @@
 ///////////////////////////// SCSS Variables/MIXINS for components ///////////////////////////////
 
+/////////////// Fonts  ///////////////
+$logofont: Verdana, Geneva, Tahoma, sans-serif;
+
 /////////////// Themes/colors ///////////////
 // Sec one
 $secOneBg: #ffffff;
@@ -46,7 +49,7 @@ html {
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     display: grid;
     //grid-template-rows: 65px 185vw auto auto auto auto 180vw;
-    grid-template-rows: 65px auto auto auto auto auto 180vw;
+    grid-template-rows: 65px auto auto auto auto auto auto;
     grid-template-areas:
       "nav"
       "section-one"

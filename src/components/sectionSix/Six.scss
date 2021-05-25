@@ -112,6 +112,21 @@
     font-size: 1.5rem;
     color: #ffffff;
   }
+  ////// contact input mobile ////////
+  .email-area {
+    height: 50vw;
+    width: 85vw;
+    background-color: black;
+  }
+  .input-para {
+    margin-top: 5vw;
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+  .input-lable {
+    display: block;
+  }
 }
 /////////////////////////////// Desktop ///////////////////////////////
 
@@ -153,11 +168,47 @@
     margin-top: 20vw;
     margin-bottom: 5vw;
   }
+  ////// contact input  ////////
+  .email-area {
+    //height: 50vw;
+    height: fit-content;
+    // width: 85vw;
+    margin: 0 17vw;
+    background-color: black;
+  }
+  .input-para {
+    font-size: 2rem;
+    margin-top: 5vw;
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+  input {
+    height: 3vw;
+    width: 30vw;
+  }
+  textarea {
+    height: 10vw;
+    width: 30vw;
+  }
+  .email-submit {
+    height: 3vw;
+    width: 10vw;
+    font-size: 1.5rem;
+    background-color: $secOneButton;
+  }
+  .input-lable {
+    margin-bottom: 1vw;
+    display: block;
+  }
   // Atoms
   .s-footer-text,
   .s-header-text,
   .s-des-area {
     color: white;
+  }
+  .s-footer-text {
+    font-family: $logofont;
   }
   .s-des-text {
     line-height: 4rem;
@@ -171,5 +222,29 @@
   .button-text-footer {
     font-size: 1.5rem;
     color: #ffffff;
+  }
+}
+////// contact input mobile ////////
+@media (max-width: 530px) {
+  .email-area {
+    //height: 50vw;
+    height: fit-content;
+    width: 85vw;
+    background-color: black;
+  }
+  .input-para {
+    margin-top: 5vw;
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+  .input-lable {
+    display: block;
+  }
+  .email-submit {
+    height: 50px;
+    width: 180px;
+    font-size: 1.5rem;
+    background-color: $secOneButton;
   }
 }

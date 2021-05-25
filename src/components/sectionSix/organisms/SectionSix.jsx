@@ -1,6 +1,7 @@
 import React from "react";
 import ButtonArea from "../molecules/ButtonArea";
 import DesArea from "../molecules/DesArea";
+import EmailArea from "../molecules/EmailArea";
 import FooterArea from "../molecules/FooterArea";
 import MainHeader from "../molecules/MainHeader";
 
@@ -20,6 +21,7 @@ function SectionSix() {
         <MainHeader />
         <DesArea />
         <ButtonArea />
+
         <FooterArea />
       </div>
     </>
