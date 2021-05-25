@@ -25,7 +25,7 @@ function EmailArea() {
           <textarea name="message" rows="5"></textarea>
         </p>
         <p className="submit-para input-para">
-          <button className="email-submit" type="submit">
+          <button className="email-submit" type="submit" disabled>
             Submit
           </button>
         </p>

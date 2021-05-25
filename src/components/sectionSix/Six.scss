@@ -87,6 +87,7 @@
     display: flex;
     align-items: center;
     place-content: center;
+    border: none;
   }
   .s-footer-area {
     margin-top: 55vw;
@@ -161,6 +162,7 @@
     display: flex;
     align-items: center;
     place-content: center;
+    border: none;
   }
   .s-footer-area {
     display: flex;
@@ -184,12 +186,14 @@
     text-align: center;
   }
   input {
-    height: 3vw;
-    width: 30vw;
+    height: 2vw;
+    padding: 0 1vw;
+    width: 15vw;
   }
   textarea {
-    height: 10vw;
-    width: 30vw;
+    padding: 1vw 1vw;
+    height: 7vw;
+    width: 25vw;
   }
   .email-submit {
     height: 3vw;
@@ -240,11 +244,17 @@
   }
   .input-lable {
     display: block;
+    margin-bottom: 1vw;
   }
   .email-submit {
     height: 50px;
     width: 180px;
     font-size: 1.5rem;
     background-color: $secOneButton;
+    border: none;
+  }
+  input,
+  textarea {
+    padding: 2vw 2vw;
   }
 }
