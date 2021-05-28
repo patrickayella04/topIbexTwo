@@ -178,6 +178,27 @@
     margin: 0 17vw;
     background-color: black;
   }
+  .form-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "name company"
+      "email phone";
+  }
+  .name-para {
+    grid-area: name;
+  }
+  .company-para {
+    grid-area: company;
+  }
+  .email-para {
+    grid-area: email;
+  }
+  .phone-para {
+    grid-area: phone;
+  }
+
   .input-para {
     font-size: 2rem;
     margin-top: 5vw;
@@ -193,17 +214,18 @@
   textarea {
     padding: 1vw 1vw;
     height: 7vw;
-    width: 25vw;
+    width: 15vw;
   }
   .email-submit {
     height: 3vw;
-    width: 10vw;
+    width: 17.5vw;
     font-size: 1.5rem;
     background-color: $secOneButton;
   }
   .input-lable {
     margin-bottom: 1vw;
     display: block;
+    color: #ffff00;
   }
   // Atoms
   .s-footer-text,
@@ -245,10 +267,12 @@
   .input-lable {
     display: block;
     margin-bottom: 1vw;
+    font-size: 1.5rem;
+    color: #ffff00;
   }
   .email-submit {
     height: 50px;
-    width: 180px;
+    width: 205px;
     font-size: 1.5rem;
     background-color: $secOneButton;
     border: none;
@@ -256,5 +280,6 @@
   input,
   textarea {
     padding: 2vw 2vw;
+    width: 186px;
   }
 }
