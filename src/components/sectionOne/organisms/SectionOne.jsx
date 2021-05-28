@@ -19,10 +19,10 @@ function SectionOne() {
             <LogoSpace />
             <MainHeaderArea />
             <ParaDescription />
-            <ButtonOneArea />
+            {/* <ButtonOneArea /> */}
           </div>
           <div className="box2">
-            <ButtonTwo />
+            {/* <ButtonTwo /> */}
             <ImgArea />
           </div>
         </div>
@@ -30,8 +30,8 @@ function SectionOne() {
           <ImgArea />
           <MainHeaderArea />
           <ParaDescription />
-          <ButtonOneArea />
-          <ButtonTwo />
+          {/* <ButtonOneArea /> */}
+          {/* <ButtonTwo /> */}
         </div>
       </div>
     </>

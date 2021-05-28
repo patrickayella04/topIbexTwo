@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 // Small laptop screen
 @media (min-width: 1600px) {
   .s-main-header-area,
@@ -34,6 +35,8 @@
     height: 50px;
     width: 180px;
     background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
   }
   .s-footer-area {
     display: flex;
@@ -88,6 +91,8 @@
     align-items: center;
     place-content: center;
     border: none;
+    border-radius: 5px;
+    cursor: pointer;
   }
   .s-footer-area {
     margin-top: 55vw;
@@ -117,16 +122,28 @@
   .email-area {
     height: 50vw;
     width: 85vw;
-    background-color: black;
+    //background-color: black;
   }
   .input-para {
     margin-top: 5vw;
-    color: white;
-    background-color: black;
+    //color: white;
+    //background-color: black;
     text-align: center;
   }
   .input-lable {
     display: block;
+  }
+  // Chrome
+  ::-webkit-input-placeholder {
+    color: #c5ecfd;
+  }
+  // Firefox
+  ::-moz-input-placeholder {
+    color: #c5ecfd;
+  }
+  // Internet Explorer
+  ::-ms-input-placeholder {
+    color: #c5ecfd;
   }
 }
 /////////////////////////////// Desktop ///////////////////////////////
@@ -163,6 +180,8 @@
     align-items: center;
     place-content: center;
     border: none;
+    border-radius: 5px;
+    cursor: pointer;
   }
   .s-footer-area {
     display: flex;
@@ -176,8 +195,14 @@
     height: fit-content;
     // width: 85vw;
     margin: 0 17vw;
-    background-color: black;
+    //background-color: black;
+
+    background: url(../imgs/roundBlckInputBg.jpg) no-repeat top center;
+    background-size: cover;
+
+    //background-position-y: 80%;
   }
+
   .form-wrapper {
     display: grid;
     grid-template-columns: auto auto;
@@ -202,25 +227,51 @@
   .input-para {
     font-size: 2rem;
     margin-top: 5vw;
-    color: white;
-    background-color: black;
+    //color: white;
+    //background-color: black;
     text-align: center;
   }
   input {
     height: 2vw;
     padding: 0 1vw;
-    width: 15vw;
   }
   textarea {
     padding: 1vw 1vw;
     height: 7vw;
+  }
+  input,
+  textarea {
     width: 15vw;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
+  }
+  // Chrome
+  ::-webkit-input-placeholder {
+    color: #c5ecfd;
+  }
+  // Firefox
+  ::-moz-input-placeholder {
+    color: #c5ecfd;
+  }
+  // Internet Explorer
+  ::-ms-input-placeholder {
+    color: #c5ecfd;
   }
   .email-submit {
-    height: 3vw;
-    width: 17.5vw;
+    //height: 3vw;
+    //width: 17.5vw;
+    height: 50px;
+    width: 180px;
+    border: none;
     font-size: 1.5rem;
-    background-color: $secOneButton;
+    color: #ffffff;
+    //background-color: $secOneButton;
+    background-color: #39b7dd;
+    cursor: pointer;
+    //text-transform: uppercase;
+    border-radius: 5px;
   }
   .input-lable {
     margin-bottom: 1vw;
@@ -256,12 +307,14 @@
     //height: 50vw;
     height: fit-content;
     width: 85vw;
-    background-color: black;
+    //background-color: black;
+    background: url(../imgs/roundBlckInputBg.jpg) no-repeat top center;
+    background-size: cover;
   }
   .input-para {
     margin-top: 5vw;
-    color: white;
-    background-color: black;
+    // color: white;
+    // background-color: black;
     text-align: center;
   }
   .input-lable {
@@ -274,12 +327,22 @@
     height: 50px;
     width: 205px;
     font-size: 1.5rem;
-    background-color: $secOneButton;
+    //background-color: $secOneButton;
     border: none;
+    color: #ffffff;
+    //background-color: $secOneButton;
+    background-color: #39b7dd;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
   }
   input,
   textarea {
     padding: 2vw 2vw;
     width: 186px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
   }
 }
