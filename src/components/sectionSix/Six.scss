@@ -247,7 +247,7 @@
     width: 15vw;
     background: transparent;
     border: none;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 0.1px solid #ffffff;
     color: #ffffff;
   }
   // Chrome
@@ -280,6 +280,7 @@
     //text-transform: uppercase;
     //border-radius: 5px;
     border-radius: 100px;
+    border: 0.1px solid white;
   }
   .email-submit:hover {
     background-color: #2b2a2a;
