@@ -245,11 +245,16 @@
   input,
   textarea {
     width: 15vw;
-    background: transparent;
+    // background: transparent;
+    background: black;
     border: none;
     border-bottom: 0.1px solid #ffffff;
     color: #ffffff;
     font-size: 2rem;
+    border-radius: 5px;
+  }
+  textarea {
+    background: transparent;
   }
   // Chrome
   ::-webkit-input-placeholder {
@@ -281,7 +286,7 @@
     //text-transform: uppercase;
     //border-radius: 5px;
     border-radius: 100px;
-    border: 0.1px solid white;
+    //border: 0.1px solid white;
   }
   .email-submit:hover {
     background-color: #2b2a2a;
@@ -363,10 +368,12 @@
     padding: 3vw 2vw;
     //width: 186px;
     width: 290px;
-    background: transparent;
+    // background: transparent;
+    background: black;
     border: none;
     border-bottom: 1px solid #ffffff;
     color: #ffffff;
     font-size: 2rem;
+    border-radius: 15px;
   }
 }
