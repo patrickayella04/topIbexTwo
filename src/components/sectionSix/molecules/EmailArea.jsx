@@ -28,6 +28,7 @@ function EmailArea() {
             }
           );
         e.target.reset();
+        alert("Message Sent!");
       } else {
         alert("Please Enter Correct Information");
       }
