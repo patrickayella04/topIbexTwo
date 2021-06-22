@@ -373,9 +373,12 @@
     // background: transparent;
     background: black;
     border: none;
-    border-bottom: 0.01px solid #808080;
+    //border-bottom: 0.01px solid #808080;
     color: #ffffff;
     font-size: 2rem;
     //border-radius: 15px;
+  }
+  textarea {
+    border-bottom: 0.01px solid #808080;
   }
 }
