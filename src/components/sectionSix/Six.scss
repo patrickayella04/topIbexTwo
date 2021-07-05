@@ -86,7 +86,8 @@
     margin-right: 33.5vw;
     height: 15vw;
     width: 51.5vw;
-    background-color: blue;
+    //background-color: blue;
+    background-color: rgb(173, 236, 173);
     margin-top: 7.5vw;
     display: flex;
     align-items: center;
@@ -118,7 +119,8 @@
   }
   .button-text-footer {
     font-size: 1.5rem;
-    color: #ffffff;
+    // color: #ffffff;
+    color: black;
   }
   ////// contact input mobile ////////
   .email-area {
@@ -177,7 +179,8 @@
     margin: 10vw 17vw;
     height: 50px;
     width: 180px;
-    background-color: blue;
+    // background-color: blue;
+    background-color: rgb(173, 236, 173);
     display: flex;
     align-items: center;
     place-content: center;
@@ -317,7 +320,8 @@
   }
   .button-text-footer {
     font-size: 1.5rem;
-    color: #ffffff;
+    // color: #ffffff;
+    color: black;
   }
 }
 ////// contact input mobile ////////

@@ -71,7 +71,8 @@ html {
   .section-two {
     grid-area: section-two;
     // background-color: rgba(255, 192, 203, 0.69);
-    background-color: $secTwoBg;
+    // background-color: $secTwoBg;
+    background-color: green;
     margin-bottom: 10vw;
   }
   .section-three {
@@ -119,7 +120,8 @@ html {
   }
   .section-two {
     grid-area: section-two;
-    background-color: $secTwoBg;
+    // background-color: $secTwoBg;
+    background-color: green;
     margin: 0 17vw;
   }
   .section-three {

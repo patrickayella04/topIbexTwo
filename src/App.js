@@ -14,9 +14,9 @@ function App() {
       <MobNav />
       <SectionOne />
       <SectionTwo />
-      <SectionThree />
+      {/* <SectionThree />
       <SectionFour />
-      <SectionFive />
+      <SectionFive /> */}
       <SectionSix />
     </div>
   );
