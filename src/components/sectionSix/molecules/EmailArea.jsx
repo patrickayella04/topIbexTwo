@@ -14,7 +14,7 @@ function EmailArea() {
       if (input === true) {
         emailjs
           .sendForm(
-            "service_a374dk8",
+            "service_5viil7r",
             "template_77mr41i",
             e.target,
             "user_ubGTGQUa1rTyqnUHX798m"
